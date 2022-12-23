@@ -35,5 +35,5 @@ class Solution:
                     return res
 
 a = Solution()
-b = a.topKFrequent1([1,2],2)
+b = a.topKFrequent([1,2],2)
 print(b)
