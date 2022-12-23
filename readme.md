@@ -1,6 +1,8 @@
 ### Arrays & Hashing
 
 1. 217 - Contains Duplicate
+   - Hashset: set()
+2. 
 
 ### Two Pointers
 
