@@ -68,3 +68,11 @@ ord("a")
 a='abbcca'
 sorted(a)
 # %%
+import collections
+a=collections.defaultdict(int)
+a[0] += 1
+a[0]
+# %%
+
+sorted([1,5,3])
+# %%

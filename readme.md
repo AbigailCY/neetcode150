@@ -16,6 +16,15 @@
    - approach count:  `ord("a")= 97, ord("d-a") = 3`  O(NK)
    - approach sorted str: `key = tuple(sorted(s))`  O(NKlog(k))
 
+5. 347 - Top K Frequent Elements
+
+   - Heapq???
+
+   - less than nlogn ---> O(n):
+
+     reverse dic to freq (freq can have duplicate values)
+
+
 ### Two Pointers
 
 
