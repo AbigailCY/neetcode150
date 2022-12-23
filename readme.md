@@ -6,9 +6,15 @@
    - Hashmap: dict()
 
 3. 1 - two sum
-   - `dict.get(num) = None`
+   - `dict.get(num) = None`	`dict.get(num, 0)`
    - hashmap get: O(1)
    - List.index(value, start, end): O(n) but reduce memory
+
+4. 49 - Group Anagrams
+   - the key must be unique and immutable. This means that a Python Tuple can be a key whereas a Python List can not. 
+   - `collections.defaultdict(list)`
+   - approach count:  `ord("a")= 97, ord("d-a") = 3`  O(NK)
+   - approach sorted str: `key = tuple(sorted(s))`  O(NKlog(k))
 
 ### Two Pointers
 
