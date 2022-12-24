@@ -25,6 +25,9 @@
      reverse dic to freq (freq can have duplicate values)
 
 
+6. 238 - Product of Array Except Self
+   - prefix and suffix
+
 ### Two Pointers
 
 
